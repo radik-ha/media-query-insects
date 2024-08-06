@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+* {
+	font-family: "Nunito", sans-serif;
+}
+
+body {
+	background-color: green;
+}
+
+.innerdiv h1 {
+	color: green;
+	font-size: 2vw;
+}
+
+.banner {
+    display: flex;
+    align-items: center;
+    background-color: lightgreen;
+    border-radius: 1rem;
+}
+
+.banner img {
+	margin: 0.5rem;
+	width: 15%;
+	border-radius: 50%;
+	border: 4px solid green;
+}
+
+.banner h1 {
+	font-size: 4vw;
+	font-weight: bold;
+	color: green;
+	margin-left: 2rem;
+}
+
+.innerdiv img {
+	width: 80%;
+	border-radius: 1rem;
+	border: 4px dashed green;
+	margin-bottom: 0.5rem;
+	margin-bottom: 1rem;
+}
+
+.insects {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	margin-top: 1rem;
+	border-radius: 1rem;
+	width: 100%;
+}
+
+.innerdiv {
+	width: 25%;
+	background-color: lightgreen;
+	border-radius: 1rem;
+	box-shadow: 5px 5px 20px rgb(0,0,0);
+	margin: 1.5rem;
+}
+
+.innerdiv {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+@media (max-width: 1000px){
+			.insects {
+				flex-direction: column;
+			}
+			.innerdiv {
+				width: 90%;
+			}
+
+			.innerdiv img {
+				width: 80%;
+			}
+
+			.banner h1 {
+	            font-size: 3.5vw;
+	            margin-left: 0.5rem;
+	        }
+
+	        .banner img {
+	        	border: 2px solid green;
+	        }
+
+	        .innerdiv h1 {
+	        	font-size: 4vw;
+	        }
+
+	        .banner img {
+	            margin: 0.3rem;
+	            width: 18%;
+	        }
+}
